@@ -1,8 +1,5 @@
 const express = require("express");
 const sale = require("../controllers/sale.controller");
-const Sale = require("../models/sale.model");
-const Detail = require("../models/detail.model");
-const Product = require("../models/product.model");
 
 const router = express();
 
